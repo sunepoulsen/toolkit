@@ -1,0 +1,66 @@
+/*!
+    \mainpage Toolkit Library Documentation
+
+    <table class="doxtable" style="width:100%">
+        <tr valign="top">
+            <th >Getting Started</th>
+            <th >Developer Resources</th>            
+            <th >Tools</th>
+        </tr>
+        <tr valign="top">
+            <td >
+                - <a href="page_Download.html">Download</a>
+                - <a href="page_Requirements.html">Requirements & Platforms</a>
+                - <a href="page_Installation.html">Installation</a>
+            </td>
+            <td >
+                - <a href="page_Bugs.html">Bug Reporting</a>
+                - <a href="page_FAQ.html">Frequently Asked Questions</a>
+            </td>
+            <td >
+                - <a href="page_ToolsUtr.html">utr</a>
+            </td>
+        </tr>
+        <tr valign="top">
+            <th >API Reference</th>
+            <th >Modules</th>
+            <th >Technologies</th>            
+        </tr>
+        <tr valign="top">
+            <td >
+                - <a href="modules.html">Modules</a>
+                - <a href="namespaces.html">Namespaces</a>
+                - <a href="classes.html">Classes</a>
+                    - <a href="annotated.html">Class List</a>
+                    - <a href="hierarchy.html">Class Hierarchy</a>
+                    - <a href="inherits.html">Class Chart</a>
+                - <a href="files.html">Files</a>
+                - <a href="globals.html">All Functions & Macros</a>
+                - <a href="dirs.html">Directories</a>
+            </td>
+            <td >
+                - <a href="group__grp__Core.html">Core Module</a>
+                - <a href="group__grp__Test.html">Unit Tests</a>
+                - <a href="group__grp__Gui.html">Gui Module</a>
+                - <a href="group__grp__Interpreter.html">Interpreter Module</a>
+                - <a href="group__grp__Script.html">JavaScript Engine</a>
+                - <a href="group__grp__Resources.html">Resource Module</a>
+                - <a href="group__grp__Sql.html">Sql Module</a>
+            </td>
+            <td >
+                - <a href="group__grp__Exceptions.html">Exceptions</a>
+                - <a href="group__grp__Formats.html">Formats</a>
+                - <a href="group__grp__Logs.html">Logning</a>
+                - <a href="group__grp__TextConverters.html">Text converters</a>
+                - I18N (Internationlization)
+                - Unit Test Plugins
+            </td>
+        </tr>
+    </table>
+*/
+
+/*!
+    \namespace Toolkit
+    \brief Toplevel namespace to collect all namespaces in the Toolkit library. It does not contains any declarations or definitions besides that.
+*/
+

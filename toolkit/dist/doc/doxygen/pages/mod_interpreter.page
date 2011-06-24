@@ -1,0 +1,11 @@
+/*!
+    \defgroup grp_Interpreter Toolkit Interpreter
+    \brief This module makes it posible to interprete program options.
+    
+    
+*/
+
+/*!
+    \namespace Toolkit::Interpreter
+    \brief Namespace for the <a href="group__grp__Interpreter.html">Toolkit Interpreter</a> module.
+*/

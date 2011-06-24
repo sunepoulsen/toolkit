@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources_schema.xsd</file>
+        <file>XMLSchema.xsd</file>
+    </qresource>
+</RCC>

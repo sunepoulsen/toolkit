@@ -1,0 +1,11 @@
+/*!
+    \defgroup grp_Resources Toolkit Resource
+    \brief Presents classes to load resources from files.
+    
+    This module is basically designed to provide a better support of internationalization than Qt provides.
+*/
+
+/*!
+    \namespace Toolkit::Resource
+    \brief Namespace for the <a href="group__grp__Resources.html">Toolkit Resource</a> module.
+*/

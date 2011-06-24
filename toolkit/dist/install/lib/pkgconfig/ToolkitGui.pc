@@ -1,0 +1,13 @@
+prefix=/home/linux/projects/qt/components/toolkit/dest/install
+exec_prefix=${prefix}
+libname=toolkit_gui
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: ToolkitGui
+Description: Toolkit Gui Library
+Version: 0.5.1
+Requires: ToolkitCore = 0.5.1
+Libs: -L${libdir} -l${libname} 
+Cflags: -I${includedir}
+

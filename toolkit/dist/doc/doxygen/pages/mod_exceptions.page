@@ -1,0 +1,7 @@
+/*!
+    \defgroup grp_Exceptions Exceptions
+    \ingroup grp_Core
+
+    \brief Define exception classes for exception handling.
+*/
+

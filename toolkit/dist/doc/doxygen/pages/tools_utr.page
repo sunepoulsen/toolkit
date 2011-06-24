@@ -1,0 +1,11 @@
+/*!
+    \page page_ToolsUtr Unit Test Runner Tool
+    How to use utr...
+    
+    \section sec_Usage Usage
+    Usage...
+    
+    \param -s Runs the tests in a term and summarize a statistics about the result.
+    \param -t Prints log to stdout about each test then it is executed. Useful if you need to know in what order the tests are executed.
+    \param -g Starts a gui, where the tests can be runnned and inspected.
+*/

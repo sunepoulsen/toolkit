@@ -1,0 +1,17 @@
+/*!
+    \defgroup grp_Test Toolkit Test
+    
+    \brief Contains the system to perform automatically executed tests.    
+*/
+
+/*!
+    \defgroup grp_TestExecutor Toolkit Test Executor
+    \ingroup grp_Test
+
+    \brief Implements the executor to execute tests written in plugins.
+*/
+
+/*!
+    \namespace Toolkit::Test
+    \brief Namespace for the <a href="group__grp__Test.html">Toolkit Test</a> module.
+*/

@@ -1,0 +1,13 @@
+prefix=/home/linux/projects/qt/components/toolkit/dest/install
+exec_prefix=${prefix}
+libname=toolkit_core
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: ToolkitCore
+Description: Toolkit Core Library
+Version: 0.5.1
+Requires: QtCore >= 4.6.0
+Libs: -L${libdir} -l${libname} 
+Cflags: -I${includedir}
+
