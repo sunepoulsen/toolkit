@@ -11,7 +11,7 @@ PROJECT_NAME = toolkit_resource_test_plugin
 #====================================================================================
 
 include( ../../../toolkit.pri )
-include( $${PROJECT_ROOT}/buildfiles/plugin.pri )
+include( $${QBUILDTOOLS_LIB}/plugin.pri )
 
 #====================================================================================
 #			            Dependencies

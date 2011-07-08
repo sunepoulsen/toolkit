@@ -17,7 +17,7 @@ QT = core xml
 #====================================================================================
 
 include( ../../../toolkit.pri )
-include( $${PROJECT_ROOT}/buildfiles/app.pri )
+include( $${QBUILDTOOLS_LIB}/app.pri )
 
 #====================================================================================
 #			            Dependencies

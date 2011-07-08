@@ -14,5 +14,5 @@ SUBDIRS=src
 #			        Extra includes
 #====================================================================================
 
-include( buildfiles/build-doc.pri )
+include( $$(QBUILDTOOLS_DIR)/lib/build-doc.pri )
 

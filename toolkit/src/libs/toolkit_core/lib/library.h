@@ -15,7 +15,7 @@
 #include <QString>
 
 //-------------------------------------------------------------
-#define TOOLKIT_VERSION_STR "0.1.0"
+// #define TOOLKIT_VERSION_STR "0.1.0"
 
 //-------------------------------------------------------------
 namespace Toolkit {

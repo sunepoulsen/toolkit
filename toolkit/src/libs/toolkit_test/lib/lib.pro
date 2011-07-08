@@ -24,7 +24,7 @@ include( ../../../toolkit.pri )
 unix: PREFIX_INCLUDE = $${PREFIX_INCLUDE}/$${INCLUDE_DIR}
 win32: PREFIX_INCLUDE = $${PREFIX_INCLUDE}\\$${INCLUDE_DIR}
 
-include( $${PROJECT_ROOT}/buildfiles/lib.pri )
+include( $${QBUILDTOOLS_LIB}/lib.pri )
 
 #====================================================================================
 #			            Dependencies
