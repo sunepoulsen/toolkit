@@ -57,6 +57,18 @@ void Log::endGroup() {
     };
 };
 
+void Log::trace( const QString& msg ) {
+    write( Log::LT_TRACE, msg );
+}
+
+void Log::beginTrace( const QString& msg ) {
+    beginGroup( Log::LT_TRACE, msg );
+}
+
+void Log::endTrace() {
+    endGroup();
+}
+
 void Log::init( LogLevel logLevel, const QString& msg ) {
     if( m_CreateGroup ) {
         beginGroup( logLevel, msg );

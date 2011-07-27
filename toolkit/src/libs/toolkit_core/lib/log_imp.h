@@ -94,6 +94,74 @@ void Log::write( LogLevel logLevel, const QString& msg,
     };
 };
 
+//---------------------------------------------------------------------------------------
+template< typename T1 >
+void Log::trace( const QString& msg, T1 p1 ) {
+    write( Log::LT_TRACE, msg, p1 );
+}
+
+template< typename T1, typename T2 >
+void Log::trace( const QString& msg, T1 p1, T2 p2 ) {
+    write( Log::LT_TRACE, msg, p1, p2 );
+}
+
+template< typename T1, typename T2, typename T3 >
+void Log::trace( const QString& msg, T1 p1, T2 p2, T3 p3 ) {
+    write( Log::LT_TRACE, msg, p1, p2, p3 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4 >
+void Log::trace( const QString& msg, T1 p1, T2 p2, T3 p3, T4 p4 ) {
+    write( Log::LT_TRACE, msg, p1, p2, p3, p4 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4, typename T5 >
+void Log::trace( const QString& msg,
+                 T1 p1, T2 p2, T3 p3, T4 p4, T5 p5 )
+{
+    write( Log::LT_TRACE, msg, p1, p2, p3, p4, p5 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4, typename T5,
+          typename T6 >
+void Log::trace( const QString& msg,
+                 T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6 )
+{
+    write( Log::LT_TRACE, msg, p1, p2, p3, p4, p5, p6 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4, typename T5,
+          typename T6, typename T7 >
+void Log::trace( const QString& msg,
+                 T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7 )
+{
+    write( Log::LT_TRACE, msg, p1, p2, p3, p4, p5, p6, p7 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4, typename T5,
+          typename T6, typename T7, typename T8 >
+void Log::trace( const QString& msg,
+                 T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8 )
+{
+   write( Log::LT_TRACE, msg, p1, p2, p3, p4, p5, p6, p7, p8 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4, typename T5,
+          typename T6, typename T7, typename T8, typename T9 >
+void Log::trace( const QString& msg,
+                 T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9 )
+{
+    write( Log::LT_TRACE, msg, p1, p2, p3, p4, p5, p6, p7, p8, p9 );
+}
+
+template< typename T1, typename T2, typename T3, typename T4, typename T5,
+          typename T6, typename T7, typename T8, typename T9, typename T10 >
+void Log::trace( const QString& msg,
+                 T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9, T10 p10 )
+{
+    write( Log::LT_TRACE, msg, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10 );
+}
+
 /*
  * Local variables:
  * tab-width: 8

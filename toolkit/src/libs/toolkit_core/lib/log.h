@@ -114,6 +114,55 @@ namespace Toolkit {
             void endGroup();
             //@}
             
+            //!\name Trace messages
+            //@{
+            void trace( const QString& msg );
+
+            template< typename T1 >
+            void trace( const QString& msg, T1 p1 );
+
+            template< typename T1, typename T2 >
+            void trace( const QString& msg, T1 p1, T2 p2 );
+
+            template< typename T1, typename T2, typename T3 >
+            void trace( const QString& msg, T1 p1, T2 p2, T3 p3 );
+
+            template< typename T1, typename T2, typename T3, typename T4 >
+            void trace( const QString& msg, T1 p1, T2 p2, T3 p3, T4 p4 );
+
+            template< typename T1, typename T2, typename T3, typename T4, typename T5 >
+            void trace( const QString& msg,
+                        T1 p1, T2 p2, T3 p3, T4 p4, T5 p5 );
+
+            template< typename T1, typename T2, typename T3, typename T4, typename T5,
+                      typename T6 >
+            void trace( const QString& msg,
+                        T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6 );
+
+            template< typename T1, typename T2, typename T3, typename T4, typename T5,
+                      typename T6, typename T7 >
+            void trace( const QString& msg,
+                        T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7 );
+
+            template< typename T1, typename T2, typename T3, typename T4, typename T5,
+                      typename T6, typename T7, typename T8 >
+            void trace( const QString& msg,
+                        T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8 );
+
+            template< typename T1, typename T2, typename T3, typename T4, typename T5,
+                      typename T6, typename T7, typename T8, typename T9 >
+            void trace( const QString& msg,
+                        T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9 );
+
+            template< typename T1, typename T2, typename T3, typename T4, typename T5,
+                      typename T6, typename T7, typename T8, typename T9, typename T10 >
+            void trace( const QString& msg,
+                        T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9, T10 p10 );
+
+            void beginTrace( const QString& msg );
+            void endTrace();
+            //@}
+
         private:
             void init( LogLevel logLevel, const QString& msg );
             void destroy();
