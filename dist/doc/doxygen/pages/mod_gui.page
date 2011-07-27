@@ -1,0 +1,10 @@
+/*!
+    \defgroup grp_Gui Toolkit Gui
+
+    This module extends the QtGui module with factory classes and some new specialized widgets.
+*/
+
+/*!
+    \namespace Toolkit::Gui
+    \brief Namespace containing the <a href="group__grp__Gui.html">Toolkit Gui</a> module.
+*/

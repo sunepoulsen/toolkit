@@ -1,0 +1,15 @@
+/*!
+    \defgroup grp_Formats Formats
+    \ingroup grp_Core
+
+    Formats:
+    - \b String \b formats: Formats a single string.
+    - \b Device \b formats: Formats a string to a QIODevice.
+
+    \section sec_FormatsSyntax Syntax
+    Syntax...
+
+    \section sec_FormatsAddingDatatype Adding new data types
+    Adding new data types...
+*/
+
