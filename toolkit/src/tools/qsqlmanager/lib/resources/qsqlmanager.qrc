@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>mainwindow_en_US.xml</file>
-        <file>mainwindow_en_DK.xml</file>
-    </qresource>
-</RCC>

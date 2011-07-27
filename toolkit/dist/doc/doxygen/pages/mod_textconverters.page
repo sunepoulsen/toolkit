@@ -1,7 +1,0 @@
-/*!
-    \defgroup grp_TextConverters Text converters
-    \ingroup grp_Core
-
-    \brief Text converters are classes that can convert an unicode string into another unicode string.
-*/
-
